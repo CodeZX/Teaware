@@ -139,6 +139,10 @@
 		36A530491E811DC50067F8F7 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A530481E811DC50067F8F7 /* BaseTabBar.m */; };
 		36B7B6881EE4F77A00E18E25 /* URLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B7B6861EE4F77A00E18E25 /* URLConstants.m */; };
 		3A210722E632CE931B050CFF /* libPods-BasicFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AA6AC588A0F83490E72E29 /* libPods-BasicFramework.a */; };
+		FB10227B208FAA7F006BED2B /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10227A208FAA7F006BED2B /* DetailsViewController.m */; };
+		FB102280208FAAAA006BED2B /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10227E208FAAA1006BED2B /* HomeTableViewCell.m */; };
+		FB102281208FAAAA006BED2B /* DetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10227F208FAAA9006BED2B /* DetailsCollectionViewCell.m */; };
+		FB102284208FAF67006BED2B /* DetailsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB102283208FAF67006BED2B /* DetailsCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -416,6 +420,14 @@
 		46AA6AC588A0F83490E72E29 /* libPods-BasicFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2404136FF63979E9EA81231 /* Pods-BasicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.release.xcconfig"; sourceTree = "<group>"; };
 		BDD62ADF7C767CC104287091 /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		FB102279208FAA7E006BED2B /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		FB10227A208FAA7F006BED2B /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		FB10227C208FAA9E006BED2B /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		FB10227D208FAA9F006BED2B /* DetailsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCollectionViewCell.h; sourceTree = "<group>"; };
+		FB10227E208FAAA1006BED2B /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		FB10227F208FAAA9006BED2B /* DetailsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCollectionViewCell.m; sourceTree = "<group>"; };
+		FB102282208FAF67006BED2B /* DetailsCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsCollectionView.h; sourceTree = "<group>"; };
+		FB102283208FAF67006BED2B /* DetailsCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -514,6 +526,8 @@
 			children = (
 				36410B881DC05C9300231AF5 /* HomePageVC.h */,
 				36410B891DC05C9300231AF5 /* HomePageVC.m */,
+				FB102279208FAA7E006BED2B /* DetailsViewController.h */,
+				FB10227A208FAA7F006BED2B /* DetailsViewController.m */,
 			);
 			name = "Controller(控制器)";
 			path = Controller;
@@ -533,6 +547,12 @@
 			isa = PBXGroup;
 			children = (
 				366787FB1E0A4BAF0044CE85 /* Placeholder */,
+				FB10227D208FAA9F006BED2B /* DetailsCollectionViewCell.h */,
+				FB10227F208FAAA9006BED2B /* DetailsCollectionViewCell.m */,
+				FB10227C208FAA9E006BED2B /* HomeTableViewCell.h */,
+				FB10227E208FAAA1006BED2B /* HomeTableViewCell.m */,
+				FB102282208FAF67006BED2B /* DetailsCollectionView.h */,
+				FB102283208FAF67006BED2B /* DetailsCollectionView.m */,
 			);
 			name = "View(视图)";
 			path = View;
@@ -1579,9 +1599,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1609,13 +1636,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasicFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1636,6 +1666,7 @@
 				3679E9E91E8B452D00180014 /* ZipFileArchiveManager.m in Sources */,
 				365A39551FA7039E009B2170 /* PhotoSelectorManager.m in Sources */,
 				36650FAC1E0791E50099CD92 /* UserModel.m in Sources */,
+				FB102280208FAAAA006BED2B /* HomeTableViewCell.m in Sources */,
 				367A5DFF1E7FC6810026EC3D /* GraphicBT.m in Sources */,
 				3686A8D61E724B5400FEA856 /* LYLBouncing.m in Sources */,
 				367A5DFB1E7FC65D0026EC3D /* TextView_Placeholder.m in Sources */,
@@ -1676,6 +1707,7 @@
 				36A530381E8112220067F8F7 /* WebViewJavascriptBridge.m in Sources */,
 				367521901E4D5A4900F2117C /* UITableViewCell+NightVersion.m in Sources */,
 				3686A8C11E724B1B00FEA856 /* LYLShareManager.m in Sources */,
+				FB102284208FAF67006BED2B /* DetailsCollectionView.m in Sources */,
 				36410B8A1DC05C9300231AF5 /* HomePageVC.m in Sources */,
 				3679AAC21DDDB7C000169DFF /* UIImageView+Extension.m in Sources */,
 				365A395A1FA703E5009B2170 /* YGOptionPicker.m in Sources */,
@@ -1723,9 +1755,11 @@
 				369318381E7B7CF000AD8561 /* LYLCycleImagesCell.m in Sources */,
 				365A394D1FA7014D009B2170 /* GWLPhotoGroupTableViewController.m in Sources */,
 				3630913E1DE2D233005A9C31 /* LGScrollLabel.m in Sources */,
+				FB102281208FAAAA006BED2B /* DetailsCollectionViewCell.m in Sources */,
 				3679AACC1DDEC2A800169DFF /* NSTimer+Extension.m in Sources */,
 				365A394C1FA7014D009B2170 /* GWLPhotoGroupDetailController.m in Sources */,
 				367521831E4D5A4900F2117C /* UILabel+NightVersion.m in Sources */,
+				FB10227B208FAA7F006BED2B /* DetailsViewController.m in Sources */,
 				367521811E4D5A4900F2117C /* UIButton+NightVersion.m in Sources */,
 				368E151D1EB2ED6F00765F4B /* UIControl+BuriedPoint.m in Sources */,
 				36A469971E7F673800E44702 /* LYLSliderView.m in Sources */,

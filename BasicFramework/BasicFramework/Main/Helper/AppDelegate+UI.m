@@ -33,7 +33,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[BasicMainTBVC alloc]init];
+//    self.window.rootViewController = [[BasicMainTBVC alloc]init];
+    BasicMainNC *NC = [[BasicMainNC alloc]initWithRootViewController:[HomePageVC new]];
+    self.window.rootViewController = NC;
 }
 
 -(UIImageView *)GetPortraitIMG
