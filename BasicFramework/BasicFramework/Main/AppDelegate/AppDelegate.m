@@ -9,6 +9,15 @@
 #import "AppDelegate.h"
 #import "AppDelegate+UI.h"
 
+//// 引入JPush功能所需头文件
+//#import "JPUSHService.h"
+//// iOS10注册APNs所需头文件
+//#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+//#import <UserNotifications/UserNotifications.h>
+//#endif
+//// 如果需要使用idfa功能所需要引入的头文件（可选）
+//#import <AdSupport/AdSupport.h>
+
 @interface AppDelegate ()
 
 @end
@@ -24,9 +33,40 @@
     
     [self.window makeKeyAndVisible];
         
-    
+//    //Required
+//    //notice: 3.0.0及以后版本注册可以这样写，也可以继续用之前的注册方式
+//    JPUSHRegisterEntity * entity = [[JPUSHRegisterEntity alloc] init];
+//    entity.types = JPAuthorizationOptionAlert|JPAuthorizationOptionBadge|JPAuthorizationOptionSound;
+//    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+//        // 可以添加自定义categories
+//        // NSSet<UNNotificationCategory *> *categories for iOS10 or later
+//        // NSSet<UIUserNotificationCategory *> *categories for iOS8 and iOS9
+//    }
+//    [JPUSHService registerForRemoteNotificationConfig:entity delegate:self];
+//
+//
+//    // Optional
+//    // 获取IDFA
+//    // 如需使用IDFA功能请添加此代码并在初始化方法的advertisingIdentifier参数中填写对应值
+//    NSString *advertisingId = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+//
+//    // Required
+//    // init Push
+//    // notice: 2.1.5版本的SDK新增的注册方法，改成可上报IDFA，如果没有使用IDFA直接传nil
+//    // 如需继续使用pushConfig.plist文件声明appKey等配置内容，请依旧使用[JPUSHService setupWithOption:launchOptions]方式初始化。
+//    [JPUSHService setupWithOption:launchOptions appKey:@"b86954affd407314fce0ea84"
+//                          channel:nil
+//                 apsForProduction:1
+//            advertisingIdentifier:advertisingId];
     return YES;
 }
+//- (void)application:(UIApplication *)application
+//didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+//    
+//    /// Required - 注册 DeviceToken
+//    [JPUSHService registerDeviceToken:deviceToken];
+//}
+
 //app-app or web-app互调-回调
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {

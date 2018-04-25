@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailsCollectionView : UIView
-
+@property (nonatomic,strong) NSDictionary *dic;
 @end

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>木质</string>
+		<key>title</key>
+		<string>木质茶盘</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>鸡翅木</string>
+				<key>title</key>
+				<string>鸡翅木茶盘</string>
+				<key>spell</key>
+				<string>JVMCP</string>
+				<key>content</key>
+				<string>
+鸡翅木因其花纹秀美似鸡翅膀而得名。
+鸡翅木有的白质黑章，有的色分黄紫，
+斜锯木纹呈细花云状，酷似鸡翅膀。
+特别是纵切面，木纹纤细浮动，变化无穷，
+自然形成山水、人物图案。
+鸡翅木较花梨、紫檀等木产量更少，
+木质纹理又独具特色，肌理细密，
+紫褐色深浅相间成文，尤其是纵切面织细浮动，
+具有禽鸟颈翅那种灿烊闪耀的光辉。
+鸡翅木茶盘主要适用于：
+乌龙茶、普洱、绿茶、花茶等功夫茶道上
+                </string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>黑檀木</string>
+				<key>title</key>
+				<string>黑檀木茶盘</string>
+				<key>spell</key>
+				<string>HTMCP</string>
+				<key>content</key>
+				<string>
+黑檀木属于高级的木材，
+是世界上最稀少、最名贵木种之一。
+黑檀木心边材区别明显，
+边材白色至浅红褐色；心材黑色及不规则黑色心材。
+木材有光泽、无特殊气味。纹理黑白相间，
+直至浅交错，结构缅而匀，耐腐、耐久性强、材质硬重、细腻，
+是制作茶盘的上等木材。
+一副好的黑檀木茶盘可以堪称经历千锤百炼，
+天然黑檀实木茶盘手工精雕巨龙盘天、双龙戏珠等，极具观赏性。
+                </string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>花梨木</string>
+				<key>title</key>
+				<string>花梨木茶盘</string>
+				<key>spell</key>
+				<string>HLMCP</string>
+				<key>content</key>
+				<string>
+花梨木纹较粗，纹理直且多，
+心材呈大红、黄褐色或红褐色，
+从纵切面上看带状长纹明显，且几种颜色交错分布。
+从花梨的切面能看折射的光线，
+只有一个角度可看到折射的光线最亮最明显，
+而其它角度则不明显，这是偏光现象，是花梨木特有的。
+从弦切面上看，都能明显地看到类似牛毛的木纹。
+这由于花梨产地各不同，木质也有很大差别，
+有的质地较细密，有的质松的缘故。
+花梨木中有一层淡淡的荧光，
+如果把一小块花梨木放到水中就能发现，
+水里漂着绿的物质，这种物质能发出一种荧光。
+如果是下雨时淋湿了堆放的花梨木，
+从流出的雨水中也能看到这种荧光
+花梨木最特别的地方就是有鬼脸，
+材本身带有鬼脸般的纹路，《广州志》有记载：
+其纹有若鬼面，亦类狸斑，所以也有花狸一称。
+                </string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>香樟木</string>
+				<key>title</key>
+				<string>香樟木茶盘
+</string>
+				<key>spell</key>
+				<string>XTMCP</string>
+				<key>content</key>
+				<string>
+香樟木属于传统的稀有名贵木材.
+是我国物产稀少的名贵树种之一。
+香樟木质地坚韧而且轻柔、
+不易折断、也不易产生裂纹，
+拥有天然美丽的纹理和花纹，而且散发着浓郁的特殊香气，
+所制作而成的茶盘具有防虫、防蛀、防霉、杀菌等功能。
+樟木的材质颜色为泛红的古铜色，纹理清晰好看，材质坚硬，
+都是制作茶盘的良材。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>石制</string>
+		<key>title</key>
+		<string>石质茶盘</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>乌金石</string>
+				<key>title</key>
+				<string>乌金石茶盘</string>
+				<key>spell</key>
+				<string>WUJSCP</string>
+				<key>content</key>
+				<string>
+乌金石茶盘，乌金石色呈乌黑，
+似有金属结晶之闪耀，俗称乌金石。
+其质地坚硬细腻，结构均匀，光泽度高，
+纯黑发亮、质感温润雍容、内敛、沉稳！
+传统石雕工艺和现代科技工艺的运用，加之精准的线条。
+高雅脱俗，浑然天成！抛弃石头的冰冷之感，
+每一款均充分考虑其功能性和艺术性自然结合，
+品茗的同时亦可感受东方茶道文化与茶艺揉合之美，
+是倡导天人合一中国茶文化的完美体现，
+本石所特有的吸水率，使之亦如紫砂可养，
+在茶汤的滋润之下，日久愈加温润可观！
+                </string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>玉石</string>
+				<key>title</key>
+				<string>玉石茶盘</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+玉石茶盘是由玉石制作的茶盘，
+其线条纹路自然生动，样式繁多，
+或美观大方，或高贵典雅，行云流水。
+玉有五德：仁、义、智、勇、洁。
+中国古人认为玉是光荣和幸福的化身，刚毅和仁慈的象征。
+她有防妖避邪的作用。
+她的韧性强，受得住铁锤击打，连金刚石也无法与之相比。</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>砚石</string>
+				<key>title</key>
+				<string>砚石茶盘</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+砚石质与水相亲，湿水后犹为晶莹剔透、
+温润如玉、细腻而润滑，因此制成茶盘，犹为合适。
+采用中国传统手工工艺处理，根据石头的天然特性,
+由名师设计，精心雕琢而成，一石一作品，
+其独特材质不但具有遇冷遇热不干裂不变形，不褪色，不生异味，
+不易沾茶垢，易清洗等优点，既具备实用价值，而外观美观大方，
+别致典雅高档，也具备把玩、观赏的雅趣，同时，
+还富有中国传统文化内涵，体现中国茶文化之独特，
+还具备珍藏价值，历久经年，价值犹存，
+实为实用与珍藏的一大珍品。</string>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>九龙壁石</string>
+				<key>title</key>
+				<string>九龙壁石茶盘
+</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+九龙璧蕴含丰富的文化内涵，意韵丰富，
+蕴涵深刻，其质美，美在坚贞雄浑；色美，
+美在五彩斑斓；纹美，美在构图逼真；形美，
+美在造型奇巧；意美，美在意味深长。其中蕴含的天地灵气、
+日月精华，无比奥妙神奇，只可意会，不可言传。
+因九龙璧硬度、密度高，吸水率几乎为零，
+故产品遇水后不变色、不易附着污物，
+使用中不易产生划痕，这是一般花岗岩不能比拟的。
+九龙璧石，似石非石，犹如硅质碧玉，五彩斑斓，嵯峨万象，
+其自然美和沧桑感是其它岩石类无法比拟的，是石中一绝。
+是我国十大奇石之一。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>铁质</string>
+		<key>title</key>
+		<string>铁制茶盘
+</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>铁质</string>
+				<key>title</key>
+				<string>不锈钢茶盘
+</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+金属茶盘最以实用见长，若非外力恶意破坏，
+永远不会开裂，兼价格便宜，所以
+用者甚广。不锈钢茶盘长久不清洁而蒙茶垢，
+略经擦拭即可光亮如新，只是这西洋
+光很是有些舶来品的感觉，不如其他材质更见中国味道，
+但在闽地安溪，铁观音的
+茶商多喜此物，家家必备，
+亮晶晶一字排开，颇为壮观。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>紫砂</string>
+		<key>title</key>
+		<string>紫砂茶盘
+</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>紫砂</string>
+				<key>title</key>
+				<string>紫砂茶盘
+鸡翅木茶盘
+</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+紫砂器的泥色有多种，除去主要的朱泥、
+紫砂泥外，尚有白泥、乌泥、黄泥、松花泥等各种色泽，
+紫砂器不挂釉，而是充分利用泥本色，
+烧成后色泽温润，古雅可爱，
+紫砂器面还具有亚光效果，既可减弱光能的反射，
+又能清晰地表现器物形态、装饰与自身天然色泽的生动效果。
+紫砂陶质地古朴纯厚，不媚不俗，
+与文人气质十分相似，以至文人深爱笃好、
+以坯当纸，或撰壶铭，或书款识，或刻以花卉，
+刻以印章，托物寓意，每见巧思。
+
+</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>青瓷</string>
+		<key>title</key>
+		<string>青瓷茶盘
+</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>青瓷</string>
+				<key>title</key>
+				<string>青瓷茶盘
+
+鸡翅木茶盘
+</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+青瓷以其质地细腻，造型端庄，釉色青莹，
+纹样雅丽而蜚声中外。
+青瓷是中国传统瓷器的一种。
+在坯体上施以青釉，在还原焰中烧制而成。
+唐代诗人陆龟蒙曾以“九秋风露越窑开，
+夺得千峰翠色来”的名句赞美青瓷。青瓷“青如玉，
+明如镜，声如磬”，被称为“瓷器之花”，珍奇名贵。
+陶瓷的特点，传热较慢，保温适中，
+与茶接触不发生任何化学反应，沏出的茶有较好的色、
+香、味，而且此类茶具一般造型美观，装饰精巧，
+具有工艺品欣赏价值。
+陶土经熊熊烈火的焚烧而就，不易吸水，
+不易沾茶垢，易清洗耐腐蚀，
+独特的美感与悠久的烧制历史，
+除了磕碰易碎裂外，
+一切看起来都是那么完美。陶瓷典雅，
+不媚不俗，不仅在古代文人中备受喜爱，
+今时今日也没有失去地位。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>白瓷</string>
+		<key>title</key>
+		<string>白瓷茶盘</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>白瓷</string>
+				<key>title</key>
+				<string>白瓷茶盘</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+白瓷是汉民族传统瓷器。由于它受人们的喜爱，
+白瓷显现高贵，其用途广泛。它最早创烧于东汉之前，
+唐代有名的过渡性灰白瓷邢窑，到北宋早期的白瓷定窑，汝窑。
+白瓷的巅峰瓷为北宋的汝窑。汝窑色卵白，莹润，
+它的皇宫御用瓷单的白净度是一般白瓷的100倍，十分珍贵。
+人们曾经这样赞誉过它工艺失传的珍贵度；纵有家产万贯，
+不如有汝窑一片。对它的白净度，国外认为它是【中国白】的唯一代表。
+白瓷也是画作及烧制色瓷的基础瓷，是五彩瓷，
+青花瓷，斗彩瓷最好的底背基础瓷。
+茶盘是用来置茶杯的，
+可圆月形、可棋盘形……
+最重要的四字诀：宽、平、浅、白，
+盘面要宽，
+
+                </string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>玻璃</string>
+		<key>title</key>
+		<string>玻璃茶盘</string>
+		<key>spell</key>
+		<string>MZCP</string>
+		<key>teawars</key>
+		<array>
+			<dict>
+				<key>image</key>
+				<string>玻璃</string>
+				<key>title</key>
+				<string>玻璃茶盘</string>
+				<key>spell</key>
+				<string>JCMCP</string>
+				<key>content</key>
+				<string>
+玻璃，
+古人称之为流璃或琉璃，
+实是一种有色半透明的矿物质。
+用这种材料制成的茶具，
+能给人以色泽鲜艳，光彩照人之感。
+它晶莹剔透的光亮特性,超白华贵，融实用、装饰、
+艺术于一体，它以自然亲和力和绿色环保特性，
+受到茶艺同仁、海内外人士的青睐。表面光滑，
+具有经久耐用,易于清洁,不变型,不开裂,
+不吸收,无放射性物质,环保美观，高贵大方,
+优美典雅,更添风雅，是泡茶品茗的理想选择。</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

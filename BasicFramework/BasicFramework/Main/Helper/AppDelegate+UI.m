@@ -21,6 +21,7 @@
 }
 -(void)setItems
 {
+    
     [[UINavigationBar appearance]setBackgroundImage:[UIImage createImageWithColor:WhiteColor] forBarMetrics:UIBarMetricsDefault];
     NSDictionary *dic = @{NSForegroundColorAttributeName:kMainFontColor};
     [[UINavigationBar appearance] setTitleTextAttributes:dic];

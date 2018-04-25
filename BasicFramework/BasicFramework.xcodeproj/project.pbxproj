@@ -7,6 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186BD63520901E47004D47D4 /* Songti.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63420901D60004D47D4 /* Songti.ttc */; };
+		186BD63720902BA0004D47D4 /* TeawareList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63620902BA0004D47D4 /* TeawareList.plist */; };
+		186BD684209040F3004D47D4 /* 玻璃.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD639209040F2004D47D4 /* 玻璃.png */; };
+		186BD685209040F3004D47D4 /* 石制@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63A209040F2004D47D4 /* 石制@2x.png */; };
+		186BD686209040F3004D47D4 /* 98茶盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63B209040F2004D47D4 /* 98茶盘.png */; };
+		186BD687209040F3004D47D4 /* 竹制茶盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63C209040F2004D47D4 /* 竹制茶盘@2x.png */; };
+		186BD688209040F3004D47D4 /* 黑檀木.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63D209040F2004D47D4 /* 黑檀木.png */; };
+		186BD689209040F3004D47D4 /* 分割线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63E209040F2004D47D4 /* 分割线@3x.png */; };
+		186BD68A209040F3004D47D4 /* 砚石@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD63F209040F2004D47D4 /* 砚石@3x.png */; };
+		186BD68B209040F3004D47D4 /* 花梨木@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD640209040F2004D47D4 /* 花梨木@3x.png */; };
+		186BD68C209040F3004D47D4 /* 青瓷.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD641209040F2004D47D4 /* 青瓷.png */; };
+		186BD68D209040F3004D47D4 /* 玻璃@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD642209040F2004D47D4 /* 玻璃@2x.png */; };
+		186BD68E209040F3004D47D4 /* 鸡翅木@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD643209040F2004D47D4 /* 鸡翅木@2x.png */; };
+		186BD68F209040F3004D47D4 /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD644209040F2004D47D4 /* 关于.png */; };
+		186BD690209040F3004D47D4 /* 鸡翅木@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD645209040F2004D47D4 /* 鸡翅木@3x.png */; };
+		186BD691209040F3004D47D4 /* 玻璃@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD646209040F2004D47D4 /* 玻璃@3x.png */; };
+		186BD692209040F3004D47D4 /* 石制.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD647209040F2004D47D4 /* 石制.png */; };
+		186BD693209040F3004D47D4 /* 分割线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD648209040F2004D47D4 /* 分割线@2x.png */; };
+		186BD694209040F3004D47D4 /* 砚石@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD649209040F2004D47D4 /* 砚石@2x.png */; };
+		186BD695209040F3004D47D4 /* 花梨木@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64A209040F2004D47D4 /* 花梨木@2x.png */; };
+		186BD696209040F3004D47D4 /* 竹制茶盘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64B209040F2004D47D4 /* 竹制茶盘@3x.png */; };
+		186BD697209040F3004D47D4 /* 陶瓷.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64C209040F2004D47D4 /* 陶瓷.png */; };
+		186BD698209040F3004D47D4 /* 木质.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64D209040F2004D47D4 /* 木质.png */; };
+		186BD699209040F3004D47D4 /* 竹制茶盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64E209040F2004D47D4 /* 竹制茶盘.png */; };
+		186BD69A209040F3004D47D4 /* 石制@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD64F209040F2004D47D4 /* 石制@3x.png */; };
+		186BD69B209040F3004D47D4 /* 铁制茶盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD650209040F2004D47D4 /* 铁制茶盘@2x.png */; };
+		186BD69C209040F3004D47D4 /* 紫砂@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD651209040F2004D47D4 /* 紫砂@3x.png */; };
+		186BD69D209040F3004D47D4 /* 香樟木.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD652209040F2004D47D4 /* 香樟木.png */; };
+		186BD69E209040F3004D47D4 /* 关于@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD653209040F2004D47D4 /* 关于@2x.png */; };
+		186BD69F209040F3004D47D4 /* 白瓷@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD654209040F2004D47D4 /* 白瓷@2x.png */; };
+		186BD6A0209040F3004D47D4 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD655209040F2004D47D4 /* 返回@3x.png */; };
+		186BD6A1209040F3004D47D4 /* 铁制茶盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD656209040F2004D47D4 /* 铁制茶盘.png */; };
+		186BD6A2209040F3004D47D4 /* 竹@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD657209040F2004D47D4 /* 竹@2x.png */; };
+		186BD6A3209040F3004D47D4 /* 背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD658209040F2004D47D4 /* 背景@3x.png */; };
+		186BD6A4209040F3004D47D4 /* 乌金石@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD659209040F2004D47D4 /* 乌金石@3x.png */; };
+		186BD6A5209040F3004D47D4 /* 乌金石@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65A209040F2004D47D4 /* 乌金石@2x.png */; };
+		186BD6A6209040F3004D47D4 /* 背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65B209040F2004D47D4 /* 背景@2x.png */; };
+		186BD6A7209040F3004D47D4 /* 竹@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65C209040F2004D47D4 /* 竹@3x.png */; };
+		186BD6A8209040F3004D47D4 /* 关于@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65D209040F2004D47D4 /* 关于@3x.png */; };
+		186BD6A9209040F3004D47D4 /* 白瓷@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65E209040F2004D47D4 /* 白瓷@3x.png */; };
+		186BD6AA209040F3004D47D4 /* 返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD65F209040F2004D47D4 /* 返回@2x.png */; };
+		186BD6AB209040F3004D47D4 /* 玉石.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD660209040F2004D47D4 /* 玉石.png */; };
+		186BD6AC209040F3004D47D4 /* 紫砂@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD661209040F2004D47D4 /* 紫砂@2x.png */; };
+		186BD6AD209040F3004D47D4 /* 铁制茶盘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD662209040F2004D47D4 /* 铁制茶盘@3x.png */; };
+		186BD6AE209040F3004D47D4 /* 乌金石.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD663209040F2004D47D4 /* 乌金石.png */; };
+		186BD6AF209040F3004D47D4 /* 香樟木@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD664209040F2004D47D4 /* 香樟木@3x.png */; };
+		186BD6B0209040F3004D47D4 /* 玉石@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD665209040F2004D47D4 /* 玉石@2x.png */; };
+		186BD6B1209040F3004D47D4 /* 陶瓷@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD666209040F2004D47D4 /* 陶瓷@2x.png */; };
+		186BD6B2209040F3004D47D4 /* 鸡翅木.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD667209040F2004D47D4 /* 鸡翅木.png */; };
+		186BD6B3209040F3004D47D4 /* 98茶盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD668209040F2004D47D4 /* 98茶盘@2x.png */; };
+		186BD6B4209040F3004D47D4 /* 玻璃茶盘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD669209040F2004D47D4 /* 玻璃茶盘@3x.png */; };
+		186BD6B5209040F3004D47D4 /* 青瓷@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66A209040F2004D47D4 /* 青瓷@3x.png */; };
+		186BD6B6209040F3004D47D4 /* 竹.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66B209040F2004D47D4 /* 竹.png */; };
+		186BD6B7209040F3004D47D4 /* 白瓷.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66C209040F2004D47D4 /* 白瓷.png */; };
+		186BD6B8209040F3004D47D4 /* 青瓷@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66D209040F2004D47D4 /* 青瓷@2x.png */; };
+		186BD6B9209040F3004D47D4 /* 玻璃茶盘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66E209040F2004D47D4 /* 玻璃茶盘@2x.png */; };
+		186BD6BA209040F3004D47D4 /* 98茶盘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD66F209040F2004D47D4 /* 98茶盘@3x.png */; };
+		186BD6BB209040F3004D47D4 /* 陶瓷@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD670209040F2004D47D4 /* 陶瓷@3x.png */; };
+		186BD6BC209040F3004D47D4 /* 玉石@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD671209040F2004D47D4 /* 玉石@3x.png */; };
+		186BD6BD209040F3004D47D4 /* 香樟木@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD672209040F2004D47D4 /* 香樟木@2x.png */; };
+		186BD6BE209040F3004D47D4 /* 黑檀木@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD673209040F2004D47D4 /* 黑檀木@2x.png */; };
+		186BD6BF209040F3004D47D4 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD674209040F2004D47D4 /* 背景.png */; };
+		186BD6C0209040F3004D47D4 /* 铁质.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD675209040F2004D47D4 /* 铁质.png */; };
+		186BD6C1209040F3004D47D4 /* 铁质@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD676209040F2004D47D4 /* 铁质@2x.png */; };
+		186BD6C2209040F3004D47D4 /* 木质@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD677209040F2004D47D4 /* 木质@2x.png */; };
+		186BD6C3209040F3004D47D4 /* 九龙壁石@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD678209040F2004D47D4 /* 九龙壁石@3x.png */; };
+		186BD6C4209040F3004D47D4 /* 九龙壁石.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD679209040F2004D47D4 /* 九龙壁石.png */; };
+		186BD6C5209040F3004D47D4 /* 玻璃茶盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67A209040F2004D47D4 /* 玻璃茶盘.png */; };
+		186BD6C6209040F3004D47D4 /* 紫砂.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67B209040F2004D47D4 /* 紫砂.png */; };
+		186BD6C7209040F3004D47D4 /* 九龙壁石@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67C209040F2004D47D4 /* 九龙壁石@2x.png */; };
+		186BD6C8209040F3004D47D4 /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67D209040F2004D47D4 /* 返回.png */; };
+		186BD6C9209040F3004D47D4 /* 木质@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67E209040F2004D47D4 /* 木质@3x.png */; };
+		186BD6CA209040F3004D47D4 /* 铁质@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD67F209040F2004D47D4 /* 铁质@3x.png */; };
+		186BD6CB209040F3004D47D4 /* 花梨木.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD680209040F2004D47D4 /* 花梨木.png */; };
+		186BD6CC209040F3004D47D4 /* 砚石.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD681209040F2004D47D4 /* 砚石.png */; };
+		186BD6CD209040F3004D47D4 /* 黑檀木@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD682209040F2004D47D4 /* 黑檀木@3x.png */; };
+		186BD6CE209040F3004D47D4 /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD683209040F2004D47D4 /* 分割线.png */; };
+		186BD6D120904C66004D47D4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6D020904C66004D47D4 /* AboutViewController.m */; };
+		186BD6D520907760004D47D4 /* 茶叶@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D22090775E004D47D4 /* 茶叶@3x.png */; };
+		186BD6D620907760004D47D4 /* 茶叶.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D32090775F004D47D4 /* 茶叶.png */; };
+		186BD6D720907760004D47D4 /* 茶叶@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D42090775F004D47D4 /* 茶叶@2x.png */; };
+		186BD6D92090A2B1004D47D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D82090A2B1004D47D4 /* Images.xcassets */; };
+		186BD6DB2090A2C0004D47D4 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6DA2090A2C0004D47D4 /* Images-2.xcassets */; };
+		186BD6E52090A8A1004D47D4 /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */; };
+		186BD6E62090A8A1004D47D4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */; };
+		186BD6E72090A8A1004D47D4 /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */; };
+		186BD6E82090A8A1004D47D4 /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */; };
 		360E05501DD029B700E7C6C1 /* MainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E054F1DD029B700E7C6C1 /* MainHelper.m */; };
 		360E05831DD1D52600E7C6C1 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E05821DD1D52600E7C6C1 /* LoginVC.m */; };
 		36111ACA1D6EE58C00A03BF4 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 36111AB31D6EE58C00A03BF4 /* Placeholder */; };
@@ -163,6 +250,98 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186BD63420901D60004D47D4 /* Songti.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Songti.ttc; sourceTree = "<group>"; };
+		186BD63620902BA0004D47D4 /* TeawareList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TeawareList.plist; sourceTree = "<group>"; };
+		186BD639209040F2004D47D4 /* 玻璃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃.png"; sourceTree = "<group>"; };
+		186BD63A209040F2004D47D4 /* 石制@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石制@2x.png"; sourceTree = "<group>"; };
+		186BD63B209040F2004D47D4 /* 98茶盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98茶盘.png"; sourceTree = "<group>"; };
+		186BD63C209040F2004D47D4 /* 竹制茶盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹制茶盘@2x.png"; sourceTree = "<group>"; };
+		186BD63D209040F2004D47D4 /* 黑檀木.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑檀木.png"; sourceTree = "<group>"; };
+		186BD63E209040F2004D47D4 /* 分割线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线@3x.png"; sourceTree = "<group>"; };
+		186BD63F209040F2004D47D4 /* 砚石@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "砚石@3x.png"; sourceTree = "<group>"; };
+		186BD640209040F2004D47D4 /* 花梨木@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花梨木@3x.png"; sourceTree = "<group>"; };
+		186BD641209040F2004D47D4 /* 青瓷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青瓷.png"; sourceTree = "<group>"; };
+		186BD642209040F2004D47D4 /* 玻璃@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃@2x.png"; sourceTree = "<group>"; };
+		186BD643209040F2004D47D4 /* 鸡翅木@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡翅木@2x.png"; sourceTree = "<group>"; };
+		186BD644209040F2004D47D4 /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		186BD645209040F2004D47D4 /* 鸡翅木@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡翅木@3x.png"; sourceTree = "<group>"; };
+		186BD646209040F2004D47D4 /* 玻璃@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃@3x.png"; sourceTree = "<group>"; };
+		186BD647209040F2004D47D4 /* 石制.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石制.png"; sourceTree = "<group>"; };
+		186BD648209040F2004D47D4 /* 分割线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线@2x.png"; sourceTree = "<group>"; };
+		186BD649209040F2004D47D4 /* 砚石@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "砚石@2x.png"; sourceTree = "<group>"; };
+		186BD64A209040F2004D47D4 /* 花梨木@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花梨木@2x.png"; sourceTree = "<group>"; };
+		186BD64B209040F2004D47D4 /* 竹制茶盘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹制茶盘@3x.png"; sourceTree = "<group>"; };
+		186BD64C209040F2004D47D4 /* 陶瓷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陶瓷.png"; sourceTree = "<group>"; };
+		186BD64D209040F2004D47D4 /* 木质.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木质.png"; sourceTree = "<group>"; };
+		186BD64E209040F2004D47D4 /* 竹制茶盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹制茶盘.png"; sourceTree = "<group>"; };
+		186BD64F209040F2004D47D4 /* 石制@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石制@3x.png"; sourceTree = "<group>"; };
+		186BD650209040F2004D47D4 /* 铁制茶盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁制茶盘@2x.png"; sourceTree = "<group>"; };
+		186BD651209040F2004D47D4 /* 紫砂@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫砂@3x.png"; sourceTree = "<group>"; };
+		186BD652209040F2004D47D4 /* 香樟木.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香樟木.png"; sourceTree = "<group>"; };
+		186BD653209040F2004D47D4 /* 关于@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于@2x.png"; sourceTree = "<group>"; };
+		186BD654209040F2004D47D4 /* 白瓷@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白瓷@2x.png"; sourceTree = "<group>"; };
+		186BD655209040F2004D47D4 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
+		186BD656209040F2004D47D4 /* 铁制茶盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁制茶盘.png"; sourceTree = "<group>"; };
+		186BD657209040F2004D47D4 /* 竹@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹@2x.png"; sourceTree = "<group>"; };
+		186BD658209040F2004D47D4 /* 背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@3x.png"; sourceTree = "<group>"; };
+		186BD659209040F2004D47D4 /* 乌金石@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌金石@3x.png"; sourceTree = "<group>"; };
+		186BD65A209040F2004D47D4 /* 乌金石@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌金石@2x.png"; sourceTree = "<group>"; };
+		186BD65B209040F2004D47D4 /* 背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@2x.png"; sourceTree = "<group>"; };
+		186BD65C209040F2004D47D4 /* 竹@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹@3x.png"; sourceTree = "<group>"; };
+		186BD65D209040F2004D47D4 /* 关于@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于@3x.png"; sourceTree = "<group>"; };
+		186BD65E209040F2004D47D4 /* 白瓷@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白瓷@3x.png"; sourceTree = "<group>"; };
+		186BD65F209040F2004D47D4 /* 返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@2x.png"; sourceTree = "<group>"; };
+		186BD660209040F2004D47D4 /* 玉石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玉石.png"; sourceTree = "<group>"; };
+		186BD661209040F2004D47D4 /* 紫砂@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫砂@2x.png"; sourceTree = "<group>"; };
+		186BD662209040F2004D47D4 /* 铁制茶盘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁制茶盘@3x.png"; sourceTree = "<group>"; };
+		186BD663209040F2004D47D4 /* 乌金石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌金石.png"; sourceTree = "<group>"; };
+		186BD664209040F2004D47D4 /* 香樟木@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香樟木@3x.png"; sourceTree = "<group>"; };
+		186BD665209040F2004D47D4 /* 玉石@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玉石@2x.png"; sourceTree = "<group>"; };
+		186BD666209040F2004D47D4 /* 陶瓷@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陶瓷@2x.png"; sourceTree = "<group>"; };
+		186BD667209040F2004D47D4 /* 鸡翅木.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡翅木.png"; sourceTree = "<group>"; };
+		186BD668209040F2004D47D4 /* 98茶盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98茶盘@2x.png"; sourceTree = "<group>"; };
+		186BD669209040F2004D47D4 /* 玻璃茶盘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃茶盘@3x.png"; sourceTree = "<group>"; };
+		186BD66A209040F2004D47D4 /* 青瓷@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青瓷@3x.png"; sourceTree = "<group>"; };
+		186BD66B209040F2004D47D4 /* 竹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹.png"; sourceTree = "<group>"; };
+		186BD66C209040F2004D47D4 /* 白瓷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白瓷.png"; sourceTree = "<group>"; };
+		186BD66D209040F2004D47D4 /* 青瓷@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青瓷@2x.png"; sourceTree = "<group>"; };
+		186BD66E209040F2004D47D4 /* 玻璃茶盘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃茶盘@2x.png"; sourceTree = "<group>"; };
+		186BD66F209040F2004D47D4 /* 98茶盘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98茶盘@3x.png"; sourceTree = "<group>"; };
+		186BD670209040F2004D47D4 /* 陶瓷@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "陶瓷@3x.png"; sourceTree = "<group>"; };
+		186BD671209040F2004D47D4 /* 玉石@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玉石@3x.png"; sourceTree = "<group>"; };
+		186BD672209040F2004D47D4 /* 香樟木@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香樟木@2x.png"; sourceTree = "<group>"; };
+		186BD673209040F2004D47D4 /* 黑檀木@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑檀木@2x.png"; sourceTree = "<group>"; };
+		186BD674209040F2004D47D4 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		186BD675209040F2004D47D4 /* 铁质.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁质.png"; sourceTree = "<group>"; };
+		186BD676209040F2004D47D4 /* 铁质@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁质@2x.png"; sourceTree = "<group>"; };
+		186BD677209040F2004D47D4 /* 木质@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木质@2x.png"; sourceTree = "<group>"; };
+		186BD678209040F2004D47D4 /* 九龙壁石@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "九龙壁石@3x.png"; sourceTree = "<group>"; };
+		186BD679209040F2004D47D4 /* 九龙壁石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "九龙壁石.png"; sourceTree = "<group>"; };
+		186BD67A209040F2004D47D4 /* 玻璃茶盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "玻璃茶盘.png"; sourceTree = "<group>"; };
+		186BD67B209040F2004D47D4 /* 紫砂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫砂.png"; sourceTree = "<group>"; };
+		186BD67C209040F2004D47D4 /* 九龙壁石@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "九龙壁石@2x.png"; sourceTree = "<group>"; };
+		186BD67D209040F2004D47D4 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		186BD67E209040F2004D47D4 /* 木质@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "木质@3x.png"; sourceTree = "<group>"; };
+		186BD67F209040F2004D47D4 /* 铁质@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁质@3x.png"; sourceTree = "<group>"; };
+		186BD680209040F2004D47D4 /* 花梨木.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花梨木.png"; sourceTree = "<group>"; };
+		186BD681209040F2004D47D4 /* 砚石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "砚石.png"; sourceTree = "<group>"; };
+		186BD682209040F2004D47D4 /* 黑檀木@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑檀木@3x.png"; sourceTree = "<group>"; };
+		186BD683209040F2004D47D4 /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
+		186BD6CF20904C5F004D47D4 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		186BD6D020904C66004D47D4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		186BD6D22090775E004D47D4 /* 茶叶@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶叶@3x.png"; sourceTree = "<group>"; };
+		186BD6D32090775F004D47D4 /* 茶叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶叶.png"; sourceTree = "<group>"; };
+		186BD6D42090775F004D47D4 /* 茶叶@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶叶@2x.png"; sourceTree = "<group>"; };
+		186BD6D82090A2B1004D47D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186BD6DA2090A2C0004D47D4 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		186BD6DD2090A8A0004D47D4 /* ATJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJWebViewController.h; sourceTree = "<group>"; };
+		186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTJWebNavigationViewController.m; sourceTree = "<group>"; };
+		186BD6DF2090A8A0004D47D4 /* ATJURLFailture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJURLFailture.h; sourceTree = "<group>"; };
+		186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
+		186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
+		186BD6E32090A8A1004D47D4 /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
+		186BD6E42090A8A1004D47D4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		360E054E1DD029B700E7C6C1 /* MainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainHelper.h; sourceTree = "<group>"; };
 		360E054F1DD029B700E7C6C1 /* MainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainHelper.m; sourceTree = "<group>"; };
 		360E05811DD1D52600E7C6C1 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
@@ -466,6 +645,106 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		186BD638209040F2004D47D4 /* 分类切图 */ = {
+			isa = PBXGroup;
+			children = (
+				186BD6D32090775F004D47D4 /* 茶叶.png */,
+				186BD6D42090775F004D47D4 /* 茶叶@2x.png */,
+				186BD6D22090775E004D47D4 /* 茶叶@3x.png */,
+				186BD639209040F2004D47D4 /* 玻璃.png */,
+				186BD63A209040F2004D47D4 /* 石制@2x.png */,
+				186BD63B209040F2004D47D4 /* 98茶盘.png */,
+				186BD63C209040F2004D47D4 /* 竹制茶盘@2x.png */,
+				186BD63D209040F2004D47D4 /* 黑檀木.png */,
+				186BD63E209040F2004D47D4 /* 分割线@3x.png */,
+				186BD63F209040F2004D47D4 /* 砚石@3x.png */,
+				186BD640209040F2004D47D4 /* 花梨木@3x.png */,
+				186BD641209040F2004D47D4 /* 青瓷.png */,
+				186BD642209040F2004D47D4 /* 玻璃@2x.png */,
+				186BD643209040F2004D47D4 /* 鸡翅木@2x.png */,
+				186BD644209040F2004D47D4 /* 关于.png */,
+				186BD645209040F2004D47D4 /* 鸡翅木@3x.png */,
+				186BD646209040F2004D47D4 /* 玻璃@3x.png */,
+				186BD647209040F2004D47D4 /* 石制.png */,
+				186BD648209040F2004D47D4 /* 分割线@2x.png */,
+				186BD649209040F2004D47D4 /* 砚石@2x.png */,
+				186BD64A209040F2004D47D4 /* 花梨木@2x.png */,
+				186BD64B209040F2004D47D4 /* 竹制茶盘@3x.png */,
+				186BD64C209040F2004D47D4 /* 陶瓷.png */,
+				186BD64D209040F2004D47D4 /* 木质.png */,
+				186BD64E209040F2004D47D4 /* 竹制茶盘.png */,
+				186BD64F209040F2004D47D4 /* 石制@3x.png */,
+				186BD650209040F2004D47D4 /* 铁制茶盘@2x.png */,
+				186BD651209040F2004D47D4 /* 紫砂@3x.png */,
+				186BD652209040F2004D47D4 /* 香樟木.png */,
+				186BD653209040F2004D47D4 /* 关于@2x.png */,
+				186BD654209040F2004D47D4 /* 白瓷@2x.png */,
+				186BD655209040F2004D47D4 /* 返回@3x.png */,
+				186BD656209040F2004D47D4 /* 铁制茶盘.png */,
+				186BD657209040F2004D47D4 /* 竹@2x.png */,
+				186BD658209040F2004D47D4 /* 背景@3x.png */,
+				186BD659209040F2004D47D4 /* 乌金石@3x.png */,
+				186BD65A209040F2004D47D4 /* 乌金石@2x.png */,
+				186BD65B209040F2004D47D4 /* 背景@2x.png */,
+				186BD65C209040F2004D47D4 /* 竹@3x.png */,
+				186BD65D209040F2004D47D4 /* 关于@3x.png */,
+				186BD65E209040F2004D47D4 /* 白瓷@3x.png */,
+				186BD65F209040F2004D47D4 /* 返回@2x.png */,
+				186BD660209040F2004D47D4 /* 玉石.png */,
+				186BD661209040F2004D47D4 /* 紫砂@2x.png */,
+				186BD662209040F2004D47D4 /* 铁制茶盘@3x.png */,
+				186BD663209040F2004D47D4 /* 乌金石.png */,
+				186BD664209040F2004D47D4 /* 香樟木@3x.png */,
+				186BD665209040F2004D47D4 /* 玉石@2x.png */,
+				186BD666209040F2004D47D4 /* 陶瓷@2x.png */,
+				186BD667209040F2004D47D4 /* 鸡翅木.png */,
+				186BD668209040F2004D47D4 /* 98茶盘@2x.png */,
+				186BD669209040F2004D47D4 /* 玻璃茶盘@3x.png */,
+				186BD66A209040F2004D47D4 /* 青瓷@3x.png */,
+				186BD66B209040F2004D47D4 /* 竹.png */,
+				186BD66C209040F2004D47D4 /* 白瓷.png */,
+				186BD66D209040F2004D47D4 /* 青瓷@2x.png */,
+				186BD66E209040F2004D47D4 /* 玻璃茶盘@2x.png */,
+				186BD66F209040F2004D47D4 /* 98茶盘@3x.png */,
+				186BD670209040F2004D47D4 /* 陶瓷@3x.png */,
+				186BD671209040F2004D47D4 /* 玉石@3x.png */,
+				186BD672209040F2004D47D4 /* 香樟木@2x.png */,
+				186BD673209040F2004D47D4 /* 黑檀木@2x.png */,
+				186BD674209040F2004D47D4 /* 背景.png */,
+				186BD675209040F2004D47D4 /* 铁质.png */,
+				186BD676209040F2004D47D4 /* 铁质@2x.png */,
+				186BD677209040F2004D47D4 /* 木质@2x.png */,
+				186BD678209040F2004D47D4 /* 九龙壁石@3x.png */,
+				186BD679209040F2004D47D4 /* 九龙壁石.png */,
+				186BD67A209040F2004D47D4 /* 玻璃茶盘.png */,
+				186BD67B209040F2004D47D4 /* 紫砂.png */,
+				186BD67C209040F2004D47D4 /* 九龙壁石@2x.png */,
+				186BD67D209040F2004D47D4 /* 返回.png */,
+				186BD67E209040F2004D47D4 /* 木质@3x.png */,
+				186BD67F209040F2004D47D4 /* 铁质@3x.png */,
+				186BD680209040F2004D47D4 /* 花梨木.png */,
+				186BD681209040F2004D47D4 /* 砚石.png */,
+				186BD682209040F2004D47D4 /* 黑檀木@3x.png */,
+				186BD683209040F2004D47D4 /* 分割线.png */,
+			);
+			path = "分类切图";
+			sourceTree = "<group>";
+		};
+		186BD6DC2090A8A0004D47D4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				186BD6DD2090A8A0004D47D4 /* ATJWebViewController.h */,
+				186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */,
+				186BD6DF2090A8A0004D47D4 /* ATJURLFailture.h */,
+				186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */,
+				186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */,
+				186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */,
+				186BD6E32090A8A1004D47D4 /* XTJWebNavigationViewController.h */,
+				186BD6E42090A8A1004D47D4 /* UIImage+Extension.h */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		360E054D1DD0298B00E7C6C1 /* Helper(AppDelegateHelper) */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,6 +807,9 @@
 				36410B891DC05C9300231AF5 /* HomePageVC.m */,
 				FB102279208FAA7E006BED2B /* DetailsViewController.h */,
 				FB10227A208FAA7F006BED2B /* DetailsViewController.m */,
+				186BD6CF20904C5F004D47D4 /* AboutViewController.h */,
+				186BD6D020904C66004D47D4 /* AboutViewController.m */,
+				186BD6DC2090A8A0004D47D4 /* WebView */,
 			);
 			name = "Controller(控制器)";
 			path = Controller;
@@ -638,6 +920,8 @@
 		36111AD41D6EE60000A03BF4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				186BD63420901D60004D47D4 /* Songti.ttc */,
+				186BD638209040F2004D47D4 /* 分类切图 */,
 				3679AA131DD99BA000169DFF /* IMG.bundle */,
 				36111ADB1D6EE63200A03BF4 /* Assets.xcassets */,
 			);
@@ -649,6 +933,7 @@
 			children = (
 				368A593D1EA5BC8600F153CA /* BuriedPoint.plist */,
 				36111ADC1D6EE63200A03BF4 /* Info.plist */,
+				186BD63620902BA0004D47D4 /* TeawareList.plist */,
 			);
 			path = Plist;
 			sourceTree = "<group>";
@@ -796,6 +1081,8 @@
 				364DA6021D6584F400F6F424 /* Vender(功能封装) */,
 				36111AD11D6EE60000A03BF4 /* Resource(资源) */,
 				36111AE41D6EE67500A03BF4 /* SDKFile(集成) */,
+				186BD6D82090A2B1004D47D4 /* Images.xcassets */,
+				186BD6DA2090A2C0004D47D4 /* Images-2.xcassets */,
 				364DA53E1D65849300F6F424 /* Supporting Files */,
 			);
 			path = BasicFramework;
@@ -1458,7 +1745,6 @@
 				364DA5371D65849300F6F424 /* Sources */,
 				364DA5381D65849300F6F424 /* Frameworks */,
 				364DA5391D65849300F6F424 /* Resources */,
-				3A4C741EB49D81864E1D8D43 /* [CP] Embed Pods Frameworks */,
 				0AEC4EDB56D3292A1749FF4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1554,25 +1840,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186BD63520901E47004D47D4 /* Songti.ttc in Resources */,
+				186BD6D92090A2B1004D47D4 /* Images.xcassets in Resources */,
+				186BD6A7209040F3004D47D4 /* 竹@3x.png in Resources */,
+				186BD6BA209040F3004D47D4 /* 98茶盘@3x.png in Resources */,
+				186BD6D520907760004D47D4 /* 茶叶@3x.png in Resources */,
 				36111AE31D6EE63700A03BF4 /* LaunchScreen.storyboard in Resources */,
+				186BD6B4209040F3004D47D4 /* 玻璃茶盘@3x.png in Resources */,
+				186BD6A2209040F3004D47D4 /* 竹@2x.png in Resources */,
+				186BD6D620907760004D47D4 /* 茶叶.png in Resources */,
+				186BD6BD209040F3004D47D4 /* 香樟木@2x.png in Resources */,
 				3686A8D01E724B5400FEA856 /* checkMark@2x.png in Resources */,
+				186BD697209040F3004D47D4 /* 陶瓷.png in Resources */,
+				186BD68D209040F3004D47D4 /* 玻璃@2x.png in Resources */,
+				186BD6C9209040F3004D47D4 /* 木质@3x.png in Resources */,
 				36111AE61D6EE67500A03BF4 /* Placeholder in Resources */,
+				186BD6C2209040F3004D47D4 /* 木质@2x.png in Resources */,
+				186BD693209040F3004D47D4 /* 分割线@2x.png in Resources */,
+				186BD6CB209040F3004D47D4 /* 花梨木.png in Resources */,
+				186BD6CE209040F3004D47D4 /* 分割线.png in Resources */,
+				186BD68F209040F3004D47D4 /* 关于.png in Resources */,
+				186BD6C5209040F3004D47D4 /* 玻璃茶盘.png in Resources */,
+				186BD6BF209040F3004D47D4 /* 背景.png in Resources */,
+				186BD6A8209040F3004D47D4 /* 关于@3x.png in Resources */,
 				3679AA951DDDACF300169DFF /* WMPlayer.bundle in Resources */,
+				186BD68E209040F3004D47D4 /* 鸡翅木@2x.png in Resources */,
+				186BD6C3209040F3004D47D4 /* 九龙壁石@3x.png in Resources */,
+				186BD63720902BA0004D47D4 /* TeawareList.plist in Resources */,
 				366787FC1E0A4BAF0044CE85 /* Placeholder in Resources */,
+				186BD690209040F3004D47D4 /* 鸡翅木@3x.png in Resources */,
+				186BD6DB2090A2C0004D47D4 /* Images-2.xcassets in Resources */,
+				186BD6A5209040F3004D47D4 /* 乌金石@2x.png in Resources */,
+				186BD6BB209040F3004D47D4 /* 陶瓷@3x.png in Resources */,
+				186BD6AA209040F3004D47D4 /* 返回@2x.png in Resources */,
+				186BD6A6209040F3004D47D4 /* 背景@2x.png in Resources */,
 				3686A8D21E724B5400FEA856 /* crossMark@2x.png in Resources */,
+				186BD6A0209040F3004D47D4 /* 返回@3x.png in Resources */,
+				186BD69B209040F3004D47D4 /* 铁制茶盘@2x.png in Resources */,
+				186BD6CD209040F3004D47D4 /* 黑檀木@3x.png in Resources */,
+				186BD687209040F3004D47D4 /* 竹制茶盘@2x.png in Resources */,
+				186BD694209040F3004D47D4 /* 砚石@2x.png in Resources */,
+				186BD68C209040F3004D47D4 /* 青瓷.png in Resources */,
 				36111ADF1D6EE63200A03BF4 /* Info.plist in Resources */,
 				368A593E1EA5BC8600F153CA /* BuriedPoint.plist in Resources */,
+				186BD6B0209040F3004D47D4 /* 玉石@2x.png in Resources */,
+				186BD6A9209040F3004D47D4 /* 白瓷@3x.png in Resources */,
+				186BD692209040F3004D47D4 /* 石制.png in Resources */,
+				186BD6C0209040F3004D47D4 /* 铁质.png in Resources */,
 				36111ACA1D6EE58C00A03BF4 /* Placeholder in Resources */,
+				186BD6A1209040F3004D47D4 /* 铁制茶盘.png in Resources */,
+				186BD6B2209040F3004D47D4 /* 鸡翅木.png in Resources */,
+				186BD6BC209040F3004D47D4 /* 玉石@3x.png in Resources */,
+				186BD6AC209040F3004D47D4 /* 紫砂@2x.png in Resources */,
 				3686A8D31E724B5400FEA856 /* info.png in Resources */,
 				369318391E7B7CF000AD8561 /* LYLCycleImagesCell.xib in Resources */,
+				186BD69C209040F3004D47D4 /* 紫砂@3x.png in Resources */,
 				3686A8D41E724B5400FEA856 /* info@2x.png in Resources */,
+				186BD6C6209040F3004D47D4 /* 紫砂.png in Resources */,
+				186BD685209040F3004D47D4 /* 石制@2x.png in Resources */,
+				186BD6C1209040F3004D47D4 /* 铁质@2x.png in Resources */,
+				186BD6B1209040F3004D47D4 /* 陶瓷@2x.png in Resources */,
+				186BD6B8209040F3004D47D4 /* 青瓷@2x.png in Resources */,
+				186BD6AF209040F3004D47D4 /* 香樟木@3x.png in Resources */,
 				3686A8CF1E724B5400FEA856 /* checkMark.png in Resources */,
+				186BD69A209040F3004D47D4 /* 石制@3x.png in Resources */,
+				186BD688209040F3004D47D4 /* 黑檀木.png in Resources */,
 				3679AA141DD99BA000169DFF /* IMG.bundle in Resources */,
 				36111ACB1D6EE58C00A03BF4 /* Placeholder in Resources */,
+				186BD6BE209040F3004D47D4 /* 黑檀木@2x.png in Resources */,
+				186BD6B5209040F3004D47D4 /* 青瓷@3x.png in Resources */,
+				186BD684209040F3004D47D4 /* 玻璃.png in Resources */,
 				3686A8D11E724B5400FEA856 /* crossMark.png in Resources */,
+				186BD699209040F3004D47D4 /* 竹制茶盘.png in Resources */,
+				186BD6C8209040F3004D47D4 /* 返回.png in Resources */,
+				186BD6AD209040F3004D47D4 /* 铁制茶盘@3x.png in Resources */,
+				186BD6AE209040F3004D47D4 /* 乌金石.png in Resources */,
+				186BD6AB209040F3004D47D4 /* 玉石.png in Resources */,
+				186BD6B9209040F3004D47D4 /* 玻璃茶盘@2x.png in Resources */,
 				36111ADE1D6EE63200A03BF4 /* Assets.xcassets in Resources */,
+				186BD6A3209040F3004D47D4 /* 背景@3x.png in Resources */,
+				186BD6B7209040F3004D47D4 /* 白瓷.png in Resources */,
+				186BD6D720907760004D47D4 /* 茶叶@2x.png in Resources */,
+				186BD6CC209040F3004D47D4 /* 砚石.png in Resources */,
+				186BD695209040F3004D47D4 /* 花梨木@2x.png in Resources */,
+				186BD68A209040F3004D47D4 /* 砚石@3x.png in Resources */,
+				186BD6C7209040F3004D47D4 /* 九龙壁石@2x.png in Resources */,
+				186BD686209040F3004D47D4 /* 98茶盘.png in Resources */,
+				186BD6A4209040F3004D47D4 /* 乌金石@3x.png in Resources */,
 				3675217E1E4D5A4900F2117C /* property.json in Resources */,
+				186BD696209040F3004D47D4 /* 竹制茶盘@3x.png in Resources */,
+				186BD69F209040F3004D47D4 /* 白瓷@2x.png in Resources */,
+				186BD69D209040F3004D47D4 /* 香樟木.png in Resources */,
+				186BD6C4209040F3004D47D4 /* 九龙壁石.png in Resources */,
+				186BD6B6209040F3004D47D4 /* 竹.png in Resources */,
+				186BD69E209040F3004D47D4 /* 关于@2x.png in Resources */,
+				186BD68B209040F3004D47D4 /* 花梨木@3x.png in Resources */,
+				186BD6B3209040F3004D47D4 /* 98茶盘@2x.png in Resources */,
+				186BD698209040F3004D47D4 /* 木质.png in Resources */,
+				186BD6CA209040F3004D47D4 /* 铁质@3x.png in Resources */,
+				186BD691209040F3004D47D4 /* 玻璃@3x.png in Resources */,
 				365A394F1FA7014D009B2170 /* GWLPhotoSelector.bundle in Resources */,
+				186BD689209040F3004D47D4 /* 分割线@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1601,33 +1969,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/WeiboSDK.bundle",
 				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A4C741EB49D81864E1D8D43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4792FE396A1EEE887F8D7125 /* [CP] Check Pods Manifest.lock */ = {
@@ -1720,11 +2075,13 @@
 				3652A4501E28C22500F79333 /* NSObject+Extension.m in Sources */,
 				3679AAA01DDDB5E400169DFF /* UIView+Rotate.m in Sources */,
 				3679AAC61DDDB7C700169DFF /* UIDevice+Extension.m in Sources */,
+				186BD6E72090A8A1004D47D4 /* ATJWebViewController.m in Sources */,
 				361FC6A21E2DBBBE008B8402 /* UIColor+Extension.m in Sources */,
 				365A39251FA6F2B9009B2170 /* BasicConstants.m in Sources */,
 				365A394E1FA7014D009B2170 /* GWLPhotoLibrayController.m in Sources */,
 				36A5303B1E8112220067F8F7 /* WKWebViewJavascriptBridge.m in Sources */,
 				365A392E1FA6FCCF009B2170 /* BasicWebVC.m in Sources */,
+				186BD6E82090A8A1004D47D4 /* ATJURLFailture.m in Sources */,
 				367521911E4D5A4900F2117C /* UIView+BackgroundColor.m in Sources */,
 				3630913A1DE2CD60005A9C31 /* WSShiningLabel.m in Sources */,
 				362032741DD4748700F15494 /* NSDictionary+Extension.m in Sources */,
@@ -1737,6 +2094,7 @@
 				3675218F1E4D5A4900F2117C /* UITableViewCell+BackgroundColor.m in Sources */,
 				36925D001E305F6D00E3D0F5 /* ObjectDataBaseManager.m in Sources */,
 				364DA62B1D6584F400F6F424 /* AppUtility.m in Sources */,
+				186BD6E52090A8A1004D47D4 /* XTJWebNavigationViewController.m in Sources */,
 				3679AAB71DDDB7A800169DFF /* UITextField+Extension.m in Sources */,
 				3675217D1E4D5A4900F2117C /* UINavigationBar+Animation.m in Sources */,
 				365A392B1FA6F9BC009B2170 /* NetWorkManagerTwo.m in Sources */,
@@ -1757,12 +2115,14 @@
 				3630913E1DE2D233005A9C31 /* LGScrollLabel.m in Sources */,
 				FB102281208FAAAA006BED2B /* DetailsCollectionViewCell.m in Sources */,
 				3679AACC1DDEC2A800169DFF /* NSTimer+Extension.m in Sources */,
+				186BD6E62090A8A1004D47D4 /* UIImage+Extension.m in Sources */,
 				365A394C1FA7014D009B2170 /* GWLPhotoGroupDetailController.m in Sources */,
 				367521831E4D5A4900F2117C /* UILabel+NightVersion.m in Sources */,
 				FB10227B208FAA7F006BED2B /* DetailsViewController.m in Sources */,
 				367521811E4D5A4900F2117C /* UIButton+NightVersion.m in Sources */,
 				368E151D1EB2ED6F00765F4B /* UIControl+BuriedPoint.m in Sources */,
 				36A469971E7F673800E44702 /* LYLSliderView.m in Sources */,
+				186BD6D120904C66004D47D4 /* AboutViewController.m in Sources */,
 				3679AA9E1DDDB5E400169DFF /* UIView+DragAndReset.m in Sources */,
 				3679AA8A1DDC521F00169DFF /* FileCacheManager.m in Sources */,
 				364DA62C1D6584F400F6F424 /* ProgressHUD.m in Sources */,
@@ -1904,6 +2264,7 @@
 			baseConfigurationReference = BDD62ADF7C767CC104287091 /* Pods-BasicFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5LC99F8237;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1915,7 +2276,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = tea.zx.BasicFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1926,6 +2287,7 @@
 			baseConfigurationReference = A2404136FF63979E9EA81231 /* Pods-BasicFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 5LC99F8237;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1937,7 +2299,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = tea.zx.BasicFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -10,6 +10,7 @@
 
 @interface HomeTableViewCell : UITableViewCell
 
+@property (nonatomic,strong) NSDictionary *dic;
 + (instancetype)cellWithTableView:(UITableView *)tableView Identifier:(NSString *)identifier;
 
 @end

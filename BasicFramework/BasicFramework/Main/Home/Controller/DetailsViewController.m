@@ -15,6 +15,8 @@
 @property (nonatomic,weak) UICollectionView *collectionView;
 @property (nonatomic,weak) UIScrollView *scrollView;
 @property (nonatomic,weak) UIView *containerView;
+@property (nonatomic,strong) DetailsCollectionView *detailsCollectionView;
+
 
 @end
 
@@ -24,9 +26,19 @@
     [super viewDidLoad];
    
 //    [self setupUI];
+//    [self setupData];
     [self setupUI1];
 }
-
+- (void)setupData {
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"TeawareList" ofType:@"plist"];
+//    NSArray *pathArray = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); NSString *path1 = [pathArray objectAtIndex:0];
+//    NSString *myPath = [path1 stringByAppendingPathComponent:@"TeawareList.plist"];
+    self.sourceDataArr = [[NSMutableArray alloc] initWithContentsOfFile:filePath];
+    
+    DEBUG_LOG(@"%@",self.sourceDataArr);
+    
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     
@@ -34,10 +46,19 @@
 }
 - (void)setupUI1 {
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"背景"]];
+    
+    
+   
+    
+    
     UIScrollView *scrollView = [UIScrollView new];
-    scrollView.backgroundColor = [UIColor redColor];
+//    scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"背景"]];
     scrollView.bounces = NO;
     scrollView.alwaysBounceVertical  = NO;
+    scrollView.showsHorizontalScrollIndicator  = NO;
+    scrollView.showsVerticalScrollIndicator = NO;
 //    [scrollView setContentSize:CGSizeMake(SCREEN_WIDTH * 3, SCREEN_HEIGHT)];
     scrollView.pagingEnabled = YES;
     [self.view addSubview:scrollView];
@@ -49,33 +70,57 @@
         make.width.equalTo(SCREEN_WIDTH);
         make.height.equalTo(SCREEN_HEIGHT);
     }];
-    self.scrollView.backgroundColor = RandomColor;
+//    self.scrollView.backgroundColor = RandomColor;
+//    self.scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"背景"]];
     
     UIView *containerView  = [UIView new];
-    containerView.backgroundColor = WhiteColor;
+//    containerView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"背景"]];
     [scrollView addSubview:containerView];
     self.containerView = containerView;
     [containerView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.scrollView);
-        make.width.equalTo(SCREEN_WIDTH * 4);
+        make.width.equalTo(SCREEN_WIDTH * self.sourceDataArr.count);
         make.height.equalTo(SCREEN_HEIGHT);
     }];
     
+    for(int index = 0; index < self.sourceDataArr.count; index++) {
+        
+        
+        DetailsCollectionView *detailsCollectionView  = [DetailsCollectionView new];
+        detailsCollectionView.dic = self.sourceDataArr[index];
+//        detailsCollectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"背景"]];
+        [containerView addSubview:detailsCollectionView];
+        self.detailsCollectionView = detailsCollectionView;
+        [detailsCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(self.containerView).offset(index * SCREEN_WIDTH);
+            make.top.equalTo(self.containerView);
+            make.width.equalTo(SCREEN_WIDTH);
+            make.height.equalTo(SCREEN_HEIGHT);
+        }];
+        //
+        
+    }
     
-    DetailsCollectionView *detailsCollectionView  = [DetailsCollectionView new];
-    detailsCollectionView.backgroundColor = WhiteColor;
-    [containerView addSubview:detailsCollectionView];
-    self.containerView = containerView;
-    [detailsCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.equalTo(self.containerView);
-        make.width.equalTo(SCREEN_WIDTH);
-        make.height.equalTo(SCREEN_HEIGHT);
+    
+    UIButton *backBtn = [[UIButton alloc]init];
+    [backBtn setImage:[UIImage imageNamed:@"茶叶"] forState:UIControlStateNormal];
+    [self.view addSubview:backBtn];
+    [backBtn addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [backBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view.top).offset(25);
+        make.left.equalTo(self.view).offset(15);
+        make.size.equalTo(CGSizeMake(44, 44));
     }];
-//
+    
 
     
 }
 
+- (void)backBtnClick:(UIButton *)btn {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 - (void)setupUI {
     
     self.view.backgroundColor = WhiteColor;
@@ -134,6 +179,15 @@
     DetailsCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
 //    cell.contentView.backgroundColor = RandomColor;
     return cell;
+}
+
+- (void)setSourceDataArr:(NSArray *)sourceDataArr {
+    
+    _sourceDataArr= sourceDataArr;
+    
+    
+    
+//    self.detailsCollectionView.dic = sourceDataArr[0];
 }
 /*
 #pragma mark - Navigation
