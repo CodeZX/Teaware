@@ -90,10 +90,10 @@
 		186BD6D720907760004D47D4 /* 茶叶@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D42090775F004D47D4 /* 茶叶@2x.png */; };
 		186BD6D92090A2B1004D47D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6D82090A2B1004D47D4 /* Images.xcassets */; };
 		186BD6DB2090A2C0004D47D4 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186BD6DA2090A2C0004D47D4 /* Images-2.xcassets */; };
-		186BD6E52090A8A1004D47D4 /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */; };
-		186BD6E62090A8A1004D47D4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */; };
-		186BD6E72090A8A1004D47D4 /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */; };
-		186BD6E82090A8A1004D47D4 /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */; };
+		186BD6F220916460004D47D4 /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6EB20916460004D47D4 /* XTJWebNavigationViewController.m */; };
+		186BD6F320916460004D47D4 /* UIImage+TJ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6ED20916460004D47D4 /* UIImage+TJ_Extension.m */; };
+		186BD6F420916460004D47D4 /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6EE20916460004D47D4 /* ATJWebViewController.m */; };
+		186BD6F520916460004D47D4 /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6EF20916460004D47D4 /* ATJURLFailture.m */; };
 		360E05501DD029B700E7C6C1 /* MainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E054F1DD029B700E7C6C1 /* MainHelper.m */; };
 		360E05831DD1D52600E7C6C1 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 360E05821DD1D52600E7C6C1 /* LoginVC.m */; };
 		36111ACA1D6EE58C00A03BF4 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 36111AB31D6EE58C00A03BF4 /* Placeholder */; };
@@ -334,14 +334,15 @@
 		186BD6D42090775F004D47D4 /* 茶叶@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶叶@2x.png"; sourceTree = "<group>"; };
 		186BD6D82090A2B1004D47D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		186BD6DA2090A2C0004D47D4 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
-		186BD6DD2090A8A0004D47D4 /* ATJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJWebViewController.h; sourceTree = "<group>"; };
-		186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTJWebNavigationViewController.m; sourceTree = "<group>"; };
-		186BD6DF2090A8A0004D47D4 /* ATJURLFailture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJURLFailture.h; sourceTree = "<group>"; };
-		186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
-		186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
-		186BD6E32090A8A1004D47D4 /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
-		186BD6E42090A8A1004D47D4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		186BD6EA20916460004D47D4 /* ATJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJWebViewController.h; sourceTree = "<group>"; };
+		186BD6EB20916460004D47D4 /* XTJWebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTJWebNavigationViewController.m; sourceTree = "<group>"; };
+		186BD6EC20916460004D47D4 /* ATJURLFailture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJURLFailture.h; sourceTree = "<group>"; };
+		186BD6ED20916460004D47D4 /* UIImage+TJ_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TJ_Extension.m"; sourceTree = "<group>"; };
+		186BD6EE20916460004D47D4 /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
+		186BD6EF20916460004D47D4 /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
+		186BD6F020916460004D47D4 /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
+		186BD6F120916460004D47D4 /* UIImage+TJ_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TJ_Extension.h"; sourceTree = "<group>"; };
+		186BD6F620916644004D47D4 /* BasicFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BasicFramework.entitlements; sourceTree = "<group>"; };
 		360E054E1DD029B700E7C6C1 /* MainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainHelper.h; sourceTree = "<group>"; };
 		360E054F1DD029B700E7C6C1 /* MainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainHelper.m; sourceTree = "<group>"; };
 		360E05811DD1D52600E7C6C1 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
@@ -730,17 +731,17 @@
 			path = "分类切图";
 			sourceTree = "<group>";
 		};
-		186BD6DC2090A8A0004D47D4 /* WebView */ = {
+		186BD6E920916460004D47D4 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				186BD6DD2090A8A0004D47D4 /* ATJWebViewController.h */,
-				186BD6DE2090A8A0004D47D4 /* XTJWebNavigationViewController.m */,
-				186BD6DF2090A8A0004D47D4 /* ATJURLFailture.h */,
-				186BD6E02090A8A0004D47D4 /* UIImage+Extension.m */,
-				186BD6E12090A8A0004D47D4 /* ATJWebViewController.m */,
-				186BD6E22090A8A0004D47D4 /* ATJURLFailture.m */,
-				186BD6E32090A8A1004D47D4 /* XTJWebNavigationViewController.h */,
-				186BD6E42090A8A1004D47D4 /* UIImage+Extension.h */,
+				186BD6EA20916460004D47D4 /* ATJWebViewController.h */,
+				186BD6EB20916460004D47D4 /* XTJWebNavigationViewController.m */,
+				186BD6EC20916460004D47D4 /* ATJURLFailture.h */,
+				186BD6ED20916460004D47D4 /* UIImage+TJ_Extension.m */,
+				186BD6EE20916460004D47D4 /* ATJWebViewController.m */,
+				186BD6EF20916460004D47D4 /* ATJURLFailture.m */,
+				186BD6F020916460004D47D4 /* XTJWebNavigationViewController.h */,
+				186BD6F120916460004D47D4 /* UIImage+TJ_Extension.h */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -794,6 +795,7 @@
 			children = (
 				36111A9E1D6EE58C00A03BF4 /* Controller(控制器) */,
 				36111AA01D6EE58C00A03BF4 /* Model(数据模型) */,
+				186BD6E920916460004D47D4 /* WebView */,
 				36111AA61D6EE58C00A03BF4 /* View(视图) */,
 			);
 			name = "Home(首页)";
@@ -809,7 +811,6 @@
 				FB10227A208FAA7F006BED2B /* DetailsViewController.m */,
 				186BD6CF20904C5F004D47D4 /* AboutViewController.h */,
 				186BD6D020904C66004D47D4 /* AboutViewController.m */,
-				186BD6DC2090A8A0004D47D4 /* WebView */,
 			);
 			name = "Controller(控制器)";
 			path = Controller;
@@ -1076,6 +1077,7 @@
 		364DA53D1D65849300F6F424 /* BasicFramework */ = {
 			isa = PBXGroup;
 			children = (
+				186BD6F620916644004D47D4 /* BasicFramework.entitlements */,
 				364DA59F1D6584F400F6F424 /* Main(主要) */,
 				364DA5711D6584F400F6F424 /* Expand(扩展) */,
 				364DA6021D6584F400F6F424 /* Vender(功能封装) */,
@@ -1803,7 +1805,15 @@
 				TargetAttributes = {
 					364DA53A1D65849300F6F424 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 5LC99F8237;
+						DevelopmentTeam = TVVZL77A9L;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					364DA5531D65849300F6F424 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -2075,13 +2085,13 @@
 				3652A4501E28C22500F79333 /* NSObject+Extension.m in Sources */,
 				3679AAA01DDDB5E400169DFF /* UIView+Rotate.m in Sources */,
 				3679AAC61DDDB7C700169DFF /* UIDevice+Extension.m in Sources */,
-				186BD6E72090A8A1004D47D4 /* ATJWebViewController.m in Sources */,
+				186BD6F420916460004D47D4 /* ATJWebViewController.m in Sources */,
 				361FC6A21E2DBBBE008B8402 /* UIColor+Extension.m in Sources */,
 				365A39251FA6F2B9009B2170 /* BasicConstants.m in Sources */,
 				365A394E1FA7014D009B2170 /* GWLPhotoLibrayController.m in Sources */,
 				36A5303B1E8112220067F8F7 /* WKWebViewJavascriptBridge.m in Sources */,
 				365A392E1FA6FCCF009B2170 /* BasicWebVC.m in Sources */,
-				186BD6E82090A8A1004D47D4 /* ATJURLFailture.m in Sources */,
+				186BD6F520916460004D47D4 /* ATJURLFailture.m in Sources */,
 				367521911E4D5A4900F2117C /* UIView+BackgroundColor.m in Sources */,
 				3630913A1DE2CD60005A9C31 /* WSShiningLabel.m in Sources */,
 				362032741DD4748700F15494 /* NSDictionary+Extension.m in Sources */,
@@ -2094,7 +2104,7 @@
 				3675218F1E4D5A4900F2117C /* UITableViewCell+BackgroundColor.m in Sources */,
 				36925D001E305F6D00E3D0F5 /* ObjectDataBaseManager.m in Sources */,
 				364DA62B1D6584F400F6F424 /* AppUtility.m in Sources */,
-				186BD6E52090A8A1004D47D4 /* XTJWebNavigationViewController.m in Sources */,
+				186BD6F220916460004D47D4 /* XTJWebNavigationViewController.m in Sources */,
 				3679AAB71DDDB7A800169DFF /* UITextField+Extension.m in Sources */,
 				3675217D1E4D5A4900F2117C /* UINavigationBar+Animation.m in Sources */,
 				365A392B1FA6F9BC009B2170 /* NetWorkManagerTwo.m in Sources */,
@@ -2115,7 +2125,7 @@
 				3630913E1DE2D233005A9C31 /* LGScrollLabel.m in Sources */,
 				FB102281208FAAAA006BED2B /* DetailsCollectionViewCell.m in Sources */,
 				3679AACC1DDEC2A800169DFF /* NSTimer+Extension.m in Sources */,
-				186BD6E62090A8A1004D47D4 /* UIImage+Extension.m in Sources */,
+				186BD6F320916460004D47D4 /* UIImage+TJ_Extension.m in Sources */,
 				365A394C1FA7014D009B2170 /* GWLPhotoGroupDetailController.m in Sources */,
 				367521831E4D5A4900F2117C /* UILabel+NightVersion.m in Sources */,
 				FB10227B208FAA7F006BED2B /* DetailsViewController.m in Sources */,
@@ -2265,7 +2275,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5LC99F8237;
+				CODE_SIGN_ENTITLEMENTS = BasicFramework/BasicFramework.entitlements;
+				DEVELOPMENT_TEAM = TVVZL77A9L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BasicFramework/Vender/NSCoding",
@@ -2276,7 +2287,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tea.zx.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZX.tea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2288,7 +2299,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5LC99F8237;
+				CODE_SIGN_ENTITLEMENTS = BasicFramework/BasicFramework.entitlements;
+				DEVELOPMENT_TEAM = TVVZL77A9L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BasicFramework/Vender/NSCoding",
@@ -2299,7 +2311,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tea.zx.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZX.tea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

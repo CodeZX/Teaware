@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Extension)
+@interface UIImage (TJ_Extension)
 /**
  获取没有被渲染的图片
  

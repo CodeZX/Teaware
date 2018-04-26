@@ -97,8 +97,9 @@
     self.textLabel = textLabel;
     [textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.edges.equalTo(textScrollView);
-        make.width.equalTo(SCREEN_WIDTH - 20);
+        make.edges.equalTo(textScrollView).insets(UIEdgeInsetsMake(0, 20, 20, 20));
+        
+        make.width.equalTo(SCREEN_WIDTH - 40);
         
     }];
 //    self.textLabel.backgroundColor = RedColor;

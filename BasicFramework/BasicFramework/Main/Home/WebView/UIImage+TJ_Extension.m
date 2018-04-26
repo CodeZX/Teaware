@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 itcast. All rights reserved.
 //
 
-#import "UIImage+Extension.h"
+#import "UIImage+TJ_Extension.h"
 
-@implementation UIImage (Extension)
+@implementation UIImage (TJ_Extension)
 
 
 + (UIImage *)renderOriginalImageWithImageName:(NSString *)imageName {

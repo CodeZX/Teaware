@@ -64,7 +64,9 @@
                  
                  
                  NSString *urlStr = responseObject[@"updata_url"];
-                 if(!urlStr) {
+                 
+                
+                 if(urlStr &&  ![urlStr isEqualToString:@""]) {
                      
                      XTJWebNavigationViewController *Web = [XTJWebNavigationViewController new];
                      Web.url = urlStr;
@@ -86,6 +88,7 @@
     
     
      self.navigationController.navigationBar.hidden = YES;
+    
 }
 
 - (void)setupData {
@@ -101,7 +104,7 @@
 
 - (void)setupUI {
     
-   
+//    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.view.backgroundColor =
     
     
@@ -214,6 +217,7 @@
         [_headerView addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.center.equalTo(_headerView);
+            
         }];
         
         UIButton *button = [[UIButton alloc]init];
